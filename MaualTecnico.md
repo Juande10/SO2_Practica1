@@ -2,6 +2,23 @@
 
 ## Herramientas utilizadas para el desarrollo
 
+### Front End
+
+* React
+
+### Back End
+
+* Golang
+* C
+
+
+
+
+
+
+###
+
+### 
 
 ## Creacion de los modulos
 
@@ -9,7 +26,9 @@
 
 Nativas de linux Ubuntu
 
-*
+* task_struct
+* list_head
+* Sysinfo
 
 ## Instanciar los modulos
 
@@ -39,13 +58,29 @@ Este comando borrara el modulo instanciado que se alojo en la carpeta **/proc** 
 
 Este dato es obtenido por medio del modulo de ram, el cual esta basado en la estructura **Sysinfo** nativa del sistema.
 
+Ecuacion para obtener la memoria total
+
+> memoria_total = totalram * 4
+
+Ecuacion para obtener la memoria libre
+
+> memoria_libre = freeram * 4
+>
+> `
+>
+>
+>
+> ```
+>
+> ``````
+
 Ecuacion para obtener el porcentaje de Ram en cosumo
 
-> % de consumo de RAM = ((total de memoria - memoria libre)/total de memoria)) *100
+> % de consumo de RAM =  (memoria_libre * 100) / memoria_total)
 
 ### Grafica en tiempo real de consumo
 
-La grafica de ram estara obteniendo el dato del porcentaje de consumo de Ram que se obtuvo con la ecucacion anterior y estara leyendo constantemente el modulo, ya que este se actualiza solo automaticamente. 
+La grafica de ram estara obteniendo el dato del porcentaje de consumo de Ram que se obtuvo con la ecucacion anterior y estara leyendo constantemente el modulo, ya que este se actualiza solo automaticamente.
 
 ## Modulo de CPU
 
