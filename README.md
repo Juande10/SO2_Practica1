@@ -14,7 +14,7 @@ Estos datos son visualizados en tiempo real por una aplicacion desarrollada en R
 
 #### Manual tecnico
 
-* [manual tecnico](ManualTecnico.md)
+* [manual tecnico](MaualTecnico.md)
 
 #### Manual de usuario
 
