@@ -20,7 +20,7 @@ En la pantalla home se presentan los siguientes atributos:
 
 * Es un listado de todos los procesos que se encuentran registrados dentro de la maquina virtual que se esta consultando, este listado contiene el PID, usuario, nombre, estado y % de ram que consume.
 
-![Screenshot](HOME.png)
+![Screenshot](Home.png)
 
 #### Arbol de procesos
 

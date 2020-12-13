@@ -18,7 +18,6 @@
 
 ###
 
-### 
 
 ## Creacion de los modulos
 
@@ -65,14 +64,6 @@ Ecuacion para obtener la memoria total
 Ecuacion para obtener la memoria libre
 
 > memoria_libre = freeram * 4
->
-> `
->
->
->
-> ```
->
-> ``````
 
 Ecuacion para obtener el porcentaje de Ram en cosumo
 
