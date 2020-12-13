@@ -14,8 +14,8 @@ Estos datos son visualizados en tiempo real por una aplicacion desarrollada en R
 
 #### Manual tecnico
 
-* [https://github.com/Juande10/SO2_Practica1/blob/master/MaualTecnico.md](https://)
+* [manual tecnico](ManualTecnico.md)
 
 #### Manual de usuario
 
-* [https://github.com/Juande10/SO2_Practica1/blob/master/MaualUsuario.md](https://)
+* [manual de usuario](ManualUsuario.md)
